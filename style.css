@@ -1,0 +1,64 @@
+.cover{
+    display: flex;
+    width:100%;
+    height: 300px;
+    background-image: url(res/cover.jpg);
+    background-size: cover;
+   
+
+    
+}
+.picture{
+    border-radius: 50%;
+    margin: auto;
+    width: 200px;
+    margin-top: 200px;
+}
+.social{
+    color:aquamarine;
+    position: relative;
+    display: block;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 2.5em;
+}
+.mahmoud{
+    text-align: center;
+}
+.name {
+    font-size: 2em;
+    text-align: center;
+
+}
+.post{
+    font-size: 1em;
+    text-align: center;
+}
+
+.name:hover{
+    color: blue;
+    text-decoration: underline;
+}
+p.tek{
+opacity: 0;
+}
+.fas:hover{
+    transform: rotate(360deg);
+    color:lightcoral;
+}
+
+.fas:hover + .tek {
+    opacity: 1;
+    transition: all 1s;
+
+}
+.fas{
+    transition: all 500ms;
+   
+}
+.title{
+    color: blue;
+}
+.bd{
+    margin: 30px;
+}
